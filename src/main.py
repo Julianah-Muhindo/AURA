@@ -17,7 +17,18 @@ print("")
 
 print("Welcome!")
 
-print ("AURA is now running...Enjoy your experience!") 
+print ("AURA is now running...Enjoy your experience!")
+print ("")
+
+name = input("Before we proceed, may I know your name? ")
+location = input("Where are you from? ")
+age = input("How old are you? ")
 
 
-
+print (f"Welcome, {name} ! ")
+print ("")
+print ("Iam AURA.")
+print ("I am an AI assistant designed to help you with your tasks and provide information.")
+print (f" I see you are from {location} and you are {age} years old. I will do my best to tailor your experience according to the information received.")
+print (f"It was nice meeting you, {name} ! ") 
+print ("") 
